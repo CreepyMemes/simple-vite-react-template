@@ -3,7 +3,7 @@
     "prefix": "cl",
     "scope": "javascript,typescript,javascriptreact",
     "body": ["console.log($1)"],
-    "description": "console.log"
+    "description": "console.log",
   },
   "reactComponent": {
     "prefix": "rfc",
@@ -18,9 +18,9 @@
       "}",
       "",
       "export default ${1:${TM_FILENAME_BASE}}",
-      ""
+      "",
     ],
-    "description": "React component"
+    "description": "React component",
   },
   "reactStyledComponent": {
     "prefix": "rsc",
@@ -39,8 +39,8 @@
       "}",
       "",
       "export default ${TM_FILENAME_BASE}",
-      ""
+      "",
     ],
-    "description": "React styled component"
-  }
+    "description": "React styled component",
+  },
 }
