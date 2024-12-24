@@ -33,8 +33,8 @@ This simple project template inclues the following dependancies:
 If tiged is already installed run the following command:
 
 ```sh
-$ tiged creepymemes/simple-vite-react-template my-project
-$ cd my-project
+tiged creepymemes/simple-vite-react-template my-project
+cd my-project
 ```
 
 ## Installation
@@ -45,7 +45,7 @@ $ cd my-project
 After downloading a copy of this repo, to install all the dependancies run:
 
 ```sh
-$ npm install
+npm install
 ```
 
 ## Usage
@@ -53,11 +53,11 @@ $ npm install
 After having installed everything to start the dev server run:
 
 ```sh
-$ npm run dev
+npm run dev
 ```
 
 To build for production run:
 
 ```sh
-$ npm run build
+npm run build
 ```
