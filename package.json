@@ -1,4 +1,5 @@
 {
+  "name": "simple-vite-react-template",
   "licence": "MIT",
   "type": "module",
   "scripts": {
