@@ -17,7 +17,10 @@ export default [
 
     languageOptions: {
       ecmaVersion: 2020,
-      globals: globals.browser,
+      globals: {
+        ...globals.browser,
+        __dirname: true,
+      },
 
       parserOptions: {
         sourceType: 'module',
@@ -44,7 +47,7 @@ export default [
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
 
-      'no-unused-vars': 'warn',
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_$', varsIgnorePattern: '^_$' }],
       'react/prop-types': 'off',
     },
   },
