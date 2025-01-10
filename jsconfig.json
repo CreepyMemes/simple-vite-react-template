@@ -9,6 +9,7 @@
       "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@components/*": ["src/components/*"],
+      "@common/*": ["src/common/*"],
       "@assets/*": ["src/assets/*"],
       "@data/*": ["src/data/*"]
     }
