@@ -20,4 +20,9 @@ export default defineConfig({
       { find: '@data', replacement: path.resolve(__dirname, './src/data') },
     ],
   },
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly',
+    },
+  },
 });
