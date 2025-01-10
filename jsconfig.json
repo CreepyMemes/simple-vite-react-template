@@ -1,9 +1,17 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "target": "es6",
     "noEmit": true,
-    "checkJs": false
+    "checkJs": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@app/*": ["src/app/*"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@data/*": ["src/data/*"]
+    }
   },
-  "include": ["src"],
   "exclude": ["node_modules"]
 }
